@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="位置"
+        android:summary="城市位置">
+        <ListPreference
+            android:title="所属城市"
+            android:key="list_preference"
+            android:summary="所属城市"
+            android:entries="@array/cities"
+            android:entryValues="@array/cities"/>
+    </PreferenceCategory>
+</PreferenceScreen>
