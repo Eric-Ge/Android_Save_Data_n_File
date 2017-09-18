@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Save_Data_n_File</string>
+    <string-array name="cities">
+        <item name="北京"/>
+        <item name="上海"/>
+        <item name="广州"/>
+    </string-array>
+</resources>
